@@ -1,0 +1,13 @@
+body{
+    background-color: #000000;
+    color: #f6f6f6;
+}
+/*header {
+       background-color: lightblue;   /*apenas um teste
+       color: white;
+
+   } */
+strong{
+    color: #22d4fd;
+    border: 1px solid #22d4fd;
+}
