@@ -1,4 +1,11 @@
+/*com o * voce seleciona tudo da sua pagina html ABISOLUTAMENTE TUDO */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
+    height: 100%vh;/*serve para cossegamos utilizara 100% da altura da nossa pagina*/
+    box-sizing: border-box;
     background-color: #000000;
     color: #f6f6f6;
 }
@@ -7,7 +14,21 @@ body{
        color: white;
 
    } */
-strong{
+
+/*uma das formas de seletyores mais utilizadas e a chamada classe
+para criar uma classe primeiro vamos no html e especificamos quem tem essa class
+adicionando dentro da tag a propiedade class = <strong class=" nome da classe"> <strong>
+para editar essa classe no css primeiro presisamos colocar ponto e depois o nome dela = .nome da class 
+por exemplo*/
+
+.titulo-destaque{
     color: #22d4fd;
     border: 1px solid #22d4fd;
 }
+
+/*como funciona o border-box
+content-box	:Você fala "quero 200px de espaço pra guardar as paradas", mas esquece que tem espuma e costura
+Resultado: a mochila fica maior.
+
+border-box	:Você fala "minha mochila tem que ter 200px no total, já com tudo incluso".
+ Resultado: o tamanho não estoura. */
