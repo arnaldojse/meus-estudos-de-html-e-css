@@ -33,7 +33,7 @@ border-box	:Você fala "minha mochila tem que ter 200px no total, já com tudo i
  Resultado: o tamanho não estoura. */
 
 .apresentacao{
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;/*o display: flex transforma um elemento em um "container Flexbox", 
                    permitindo que você manipule o layout de seus filhos de forma fácil e eficiente.*/
     align-items: center;
@@ -43,6 +43,9 @@ border-box	:Você fala "minha mochila tem que ter 200px no total, já com tudo i
 }
 .apresentacao__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column; /* flex-direction: column → organiza os itens do flex container em coluna (um embaixo do outro, do topo para o fim da página). */
+    gap: 40px;/* gap: 40px → adiciona um espaçamento fixo de 40px entre os itens dentro do container (sem usar margin). */
 }
 .apresentacao__conteudo__titulo{
     font-size: 36px;
