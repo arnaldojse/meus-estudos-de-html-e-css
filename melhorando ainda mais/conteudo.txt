@@ -1,0 +1,11 @@
+Quando você precisa pegar uam foto dentro de uma pasta lembrese que sera nessesario o /nomeDaPasta/ antes do nome da imagem para o codi-
+go saber onde procurar a foto assim o codigo e os arquivos do codigo ficam organizados
+
+reutilizamos o flex box para alinhar a imagem com o texto do botão 
+
+Vamos utilizar o hover para estilizar os boões para quando o botão passar por cima dele então colocamos o :hover no fim da classe do bo-
+tão e colocamos as auterações que quisermos quando o mause passar por cima e essa estilização não se limita a apenas alterar como mas em-
+globa mudar o tamanho, fonte, e ate mesmo animações inteiras 
+
+nav e colocado no header para a navegação por links que sempre tem no cabesalho
+colocamos sa tags ancoras(a) em sequencia 
