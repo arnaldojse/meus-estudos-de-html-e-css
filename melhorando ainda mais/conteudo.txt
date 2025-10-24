@@ -9,3 +9,13 @@ globa mudar o tamanho, fonte, e ate mesmo animações inteiras
 
 nav e colocado no header para a navegação por links que sempre tem no cabesalho
 colocamos sa tags ancoras(a) em sequencia 
+
+rem unidade relativa de medidas em textos ela se adequa a fonte que o navegador do usuario está utilizando
+
+Porcentagem (%): Como a porcentagem é relativa ao elemento pai e como ela pode ser usada para ajustar o tamanho de elementos como imagens e textos.
+
+A regra @media no CSS é usada para aplicar estilos condicionalmente, dependendo do tamanho da tela ou outras características do dispositivo (como orientação, resolução, etc).
+@media (condição) {
+  /* Estilos aplicados apenas quando a condição for verdadeira */
+}
+
