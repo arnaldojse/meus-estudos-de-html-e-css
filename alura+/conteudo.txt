@@ -1,0 +1,7 @@
+:root{ --esse codigo serve para criar variaveis no css
+    --nomeDaVariavel: volor impregado a ela
+}
+
+para cvhamr e simples 
+
+background-color: var(nomeDaVariavel)
